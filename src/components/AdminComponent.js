@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaShieldAlt, FaLock } from 'react-icons/fa';
 
-const WelcomeScreen = () => {
+const AdminComponent = () => {
     return (
         <div className="flex flex-col items-center justify-center h-screen bg-primary">
             <FaShieldAlt className="text-white text-5xl absolute top-0 left-0 mt-8 ml-8" />
@@ -12,4 +12,4 @@ const WelcomeScreen = () => {
     );
 };
 
-export default WelcomeScreen;
+export default AdminComponent;
